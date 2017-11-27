@@ -32,13 +32,13 @@ First Project包含以下内容：
 
 ### 2.2 Spring Boot Web开发
 
-#### User Journey
+#### 2.2.1 User Journey
 Spring Boot Web以一个简化版的电子商城为背景，利用Spring相关知识点来完成User Journey，User Journey如下图所示：
 
 ![User journey](https://github.com/sjyuan-cc/tw-coach-coding-library/raw/master/user-journey.png)
 
 
-#### 知识点
+#### 2.2.2 知识点
 
 完成上述User Journey所涉及的相关知识点包含：
 
@@ -70,7 +70,7 @@ Spring Boot Web以一个简化版的电子商城为背景，利用Spring相关�
 8. 测试
 	- `src/test/java/`目录下所有`*Test`类。
 
-#### 习题分布
+#### 2.2.3 习题分布
 
 - 用户登录：`com.thoughtworks.star.api.UserController`
 - 创建一个新用户：`com.thoughtworks.star.api.UserController`
@@ -85,15 +85,15 @@ Spring Boot Web以一个简化版的电子商城为背景，利用Spring相关�
 关于User Journey的API的测试，请参阅`src/test/java/`目录下`com.thoughtworks.star.api`包中的测试说明。
 
 
-## 构建
+## 3. 构建
 
-### 运行测试
+### 3.1 运行测试
 
 ```
 $ ./gradlew test
 ```
 
-### 运行服务
+### 3.2 运行服务
 
 ```
 $ ./gradlew bootRun
