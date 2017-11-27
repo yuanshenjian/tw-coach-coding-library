@@ -82,7 +82,7 @@ Spring Boot Web以一个简化版的电子商城为背景，利用Spring相关�
 - 查看订单：`com.thoughtworks.star.api.OrderController`
 
 
-关于User Journey的API的测试，请参阅`src/test/java/`目录下`com.thoughtworks.star.api`包中的测试说明。
+关于User Journey的API测试，请参阅`src/test/java/`目录下`com.thoughtworks.star.api`包中的测试说明。
 
 
 ## 3. 构建
