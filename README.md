@@ -1,7 +1,7 @@
-# OTR培训题库
+# ThoughtWorks - 应届生培训题库
 
 ## 1. 简介
-本工程包含了2017OTR应届生培训的练习题，由`First Project`和`Springboot Web开发`两大块组成。
+本工程包含了 [ThoughtWorks](https://thoughtworks.com/) 某Local项目上应届生培训的练习题，由`First Project`和`Springboot Web开发`两大块组成。
 
 `First Project`目标是让学生从零开始创建一个Gradle项目，了解掌握Gradle工程的结构和原理，掌握如何管理项目的依赖以及如何使用Gradle做自动化构建和测试。其中了几道题算术统计题来考察学生对Java基础的使用，其中使用到了Java 8 Stream API。
 
