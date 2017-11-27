@@ -48,7 +48,7 @@ public class OrderControllerTest extends BaseControllerTest {
     }
 
     /**
-     * 创建订单
+     * 3.3 创建一个订单
      */
     @Test
     void should_create_order() throws Exception {
@@ -67,7 +67,7 @@ public class OrderControllerTest extends BaseControllerTest {
     }
 
     /**
-     * 查看用户订单
+     * 3.4 查看用户订单
      */
     @Test
     void should_return_user_order() throws Exception {

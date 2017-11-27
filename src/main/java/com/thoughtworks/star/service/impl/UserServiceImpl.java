@@ -88,7 +88,7 @@ public class UserServiceImpl implements UserService {
     }
 
     private User authorizedUser() {
-        JWTUser principal = (JWTUser) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        return userRepository.findByName(principal.getUsername());
+        String principal = (String) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        return userRepository.findByName(principal);
     }
 }

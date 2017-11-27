@@ -35,7 +35,7 @@ First Project包含以下内容：
 #### User Journey
 Spring Boot Web以一个简化版的电子商城为背景，利用Spring相关知识点来完成User Journey，User Journey如下图所示：
 
-![]()
+![User journey](https://github.com/sjyuan-cc/tw-coach-coding-library/raw/master/user-journey.png)
 
 
 #### 知识点
@@ -74,6 +74,30 @@ Spring Boot Web以一个简化版的电子商城为背景，利用Spring相关�
 
 
 关于User Journey的API，请参阅`src/test/java/`目录下`com.thoughtworks.star.api`包中的测试说明。
+
+
+## 构建
+
+### 运行测试
+
+```
+$ ./gradlew test
+```
+
+### 运行服务
+
+```
+$ ./gradlew bootRun
+```
+
+需要启动MySQL服务，服务信息如下：
+
+- username: root  
+- password: dev  
+- port: 3306  
+- database: future_star  
+
+
 
 
 

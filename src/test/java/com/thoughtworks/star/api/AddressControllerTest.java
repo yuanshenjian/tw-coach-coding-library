@@ -36,7 +36,7 @@ class AddressControllerTest extends BaseControllerTest {
     }
 
     /**
-     * 5. 创建地址
+     * 2.1 创建一个新的地址
      */
     @Test
     void should_create_address() throws Exception {
@@ -48,6 +48,6 @@ class AddressControllerTest extends BaseControllerTest {
                 .content(new ObjectMapper().writeValueAsString(address)))
                 .andExpect(status().isCreated())
                 .andExpect(jsonPath("$.id").isNotEmpty())
-                .andExpect(jsonPath("$.value", is("望京SOHO")));
+                .andExpect(jsonPath("$.description", is("望京SOHO")));
     }
 }

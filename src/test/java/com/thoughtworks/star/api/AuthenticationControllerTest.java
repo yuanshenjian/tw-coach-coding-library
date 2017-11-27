@@ -34,7 +34,7 @@ class AuthenticationControllerTest extends BaseControllerTest {
     }
 
     /**
-     * 1.1 登录API，登录成功
+     * 1 登录API，登录成功
      */
     @Test
     void should_login_successfully() throws Exception {
@@ -49,7 +49,7 @@ class AuthenticationControllerTest extends BaseControllerTest {
     }
 
     /**
-     * 1.2 登录API，登录失败
+     * 1 登录API，登录失败
      */
     @Test
     void should_login_failed_when_login_with_bad_credential() throws Exception {

@@ -14,7 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 class UserControllerTest extends BaseControllerTest {
 
     /**
-     * 1.3. 创建一个用户
+     * 1.1 创建一个新用户
      */
     @Test
     void should_create_user() throws Exception {

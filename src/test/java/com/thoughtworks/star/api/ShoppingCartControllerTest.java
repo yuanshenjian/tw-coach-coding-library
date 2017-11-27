@@ -67,7 +67,7 @@ class ShoppingCartControllerTest extends BaseControllerTest {
     }
 
     /**
-     * 4. 查看购物车里的商品
+     * 3.3 查看购物车里的商品
      */
     @Test
     void should_list_shopping_cart_items() throws Exception {

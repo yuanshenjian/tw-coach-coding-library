@@ -23,7 +23,7 @@ class ItemControllerTest extends BaseControllerTest {
     private ItemRepository itemRepository;
 
     /**
-     * 2. 查询商品列表
+     * 3.1 查询商品列表
      */
     @Test
     void should_list_items() throws Exception {
@@ -40,7 +40,7 @@ class ItemControllerTest extends BaseControllerTest {
     }
 
     /**
-     * 3.1 创建商品
+     * 创建商品，查看准备数据接口
      */
     @Test
     void should_create_item() throws Exception {
