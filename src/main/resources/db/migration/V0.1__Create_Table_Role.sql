@@ -1,0 +1,4 @@
+CREATE TABLE `t_role` (
+  `symbol` VARCHAR(255) NOT NULL PRIMARY KEY,
+  `name`   VARCHAR(255) NOT NULL
+);
