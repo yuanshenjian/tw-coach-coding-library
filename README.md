@@ -72,8 +72,17 @@ Spring Boot Web以一个简化版的电子商城为背景，利用Spring相关�
 
 #### 习题分布
 
+- 用户登录：`com.thoughtworks.star.api.UserController`
+- 创建一个新用户：`com.thoughtworks.star.api.UserController`
+- 创建地址：`com.thoughtworks.star.api.AddressController`
+- 查看商品列表：`com.thoughtworks.star.api.ItemController`
+- 添加商品到购物车：`com.thoughtworks.star.api.ShoppingCartController`
+- 查看购物车：`com.thoughtworks.star.api.ShoppingCartController `
+- 创建订单：`com.thoughtworks.star.api.OrderController`
+- 查看订单：`com.thoughtworks.star.api.OrderController`
 
-关于User Journey的API，请参阅`src/test/java/`目录下`com.thoughtworks.star.api`包中的测试说明。
+
+关于User Journey的API的测试，请参阅`src/test/java/`目录下`com.thoughtworks.star.api`包中的测试说明。
 
 
 ## 构建
